@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "PKG-028",
+  "slug": "wazuh-siem",
+  "name": "sovereign-wazuh-siem",
+  "domain": "Cybersecurity & SIEM Compliance",
+  "version": "1.0.0",
+  "status": "PRODUCTION_READY",
+  "entrypoint": "src/core.py",
+  "cli_command": "sovereign-wazuh-siem",
+  "microservice_port": 8808,
+  "n8n_webhook_path": "wazuh-siem-trigger",
+  "n8n_workflow": "n8n/workflow.json",
+  "test_suite": "tests/test_solution.py",
+  "author": "Russell Alan Powers",
+  "license": "MIT"
+}
